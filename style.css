@@ -77,6 +77,9 @@ body {
     line-height: 22px;
     border-bottom: 2px solid #eee;
   }
+  .portfolioH2 {
+    padding-top: 25px;
+  }
   /* footer */
   
   footer {
@@ -109,13 +112,10 @@ body {
   }
   
   /* portfolio page */
- .carousel-item {
-    height: 300px;
-  }
 
   .projectCaptions {
       background-color: #beffde;
-      color: darkgray;
+      color: #474646;
       opacity: .7;
       display: block;
       text-align: center;
@@ -175,6 +175,26 @@ body {
   }
   
   /* contact page */
+
+  .contactInfo {
+    display: inline;
+    text-align: center;
+  }
+
+  .contactImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  h4 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    /* color: #4aaaa5; */
+  }
   
   #contact-form ul {
     margin-bottom: 10px;
